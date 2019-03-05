@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Board from '../presentational/Board';
-import Title from '../presentational/Title';
-import Navigation from '../presentational/Navigation';
+import Board from './Board';
+import Title from './Title';
+import Navigation from './Navigation';
 import sudoku from 'sudoku-umd';
 
 class App extends Component {

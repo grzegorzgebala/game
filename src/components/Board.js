@@ -3,7 +3,7 @@ import Tile from './Tile';
 
 const Board = (props) => {
     return (
-        <div className={props.board != "" ? "board" : null}>
+        <div className={props.board !== "" ? "board" : null}>
             {
             props.board.map((tile, index) => {
                 if (tile === ".") {
